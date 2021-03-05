@@ -1,0 +1,62 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+%margin{
+	margin-left:10vw;
+}
+h2{
+	font-size: clamp(24px,27px,30px);
+}
+body{
+	
+	background-image: url(card.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	
+}
+
+.contianer {
+	@extend %margin;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items:flex-start;
+	height: 100vh;
+}
+
+.port {
+	display: flex;
+	
+		
+	align-items: center;
+	
+	hr{
+		width:100px; 
+	
+		height:2px;
+	}
+	h2{
+		margin-left:20px;
+		
+	
+	}
+	
+}
+
+
+
+@media screen and (max-width:1022px){
+	body{
+		background-size: cover;
+	height: 100vh;
+	}
+}
+
+
+
+	
+	

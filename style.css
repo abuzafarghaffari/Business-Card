@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.contianer {
+  margin-left: 10vw;
+}
+
+h2 {
+  font-size: clamp(24px, 27px, 30px);
+}
+
+body {
+  background-image: url(card.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.port {
+  display: flex;
+  align-items: center;
+}
+.port hr {
+  width: 100px;
+  height: 2px;
+}
+.port h2 {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1022px) {
+  body {
+    background-size: cover;
+    height: 100vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
